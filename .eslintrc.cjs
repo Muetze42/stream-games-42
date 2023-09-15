@@ -10,7 +10,9 @@ module.exports = {
   ],
   globals: {
     "electron": "readonly",
-    "api": "readonly"
+    "api": "readonly",
+    "formatChatMessage": "readonly",
+    "TwitchMessageParser": "readonly"
   },
   rules: {
     'vue/require-default-prop': 'off',
