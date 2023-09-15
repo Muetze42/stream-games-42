@@ -1,0 +1,11 @@
+{
+  "alwaysOnTop": false,
+  "width": 1280,
+  "height": 768,
+  "updater": {
+    "checkOnStartup": true,
+    "channel": "stable",
+    "backgroundDownload": true
+  },
+  "files": []
+}

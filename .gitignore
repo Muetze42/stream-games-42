@@ -1,0 +1,17 @@
+/.fleet
+/.idea
+#/.vscode
+/node_modules
+/dist
+/out
+.env
+*.log*
+/tools/vendor/
+/vendor/
+/.env.sentry-build-plugin
+
+# Sentry Auth Token
+.env.sentry-build-plugin
+
+# Sentry Auth Token
+.env.sentry-build-plugin

@@ -1,0 +1,24 @@
+{
+  "name": "norman-huth/stream-games-42",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "NormanHuth\\StreamGames42\\": "tools/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Norman Huth",
+      "homepage": "https://huth.it"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "illuminate/console": "^10.22",
+    "illuminate/container": "^10.22",
+    "illuminate/events": "^10.22",
+    "illuminate/filesystem": "^10.22",
+    "league/flysystem": "^3.16",
+    "norman-huth/helpers-collection-php": "^1.3"
+  }
+}

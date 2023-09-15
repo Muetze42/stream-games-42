@@ -1,0 +1,3 @@
+[submodule "src"]
+	path = src
+	url = https://github.com/Muetze42/stream-games-42-src.git

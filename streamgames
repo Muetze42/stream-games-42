@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+
+use NormanHuth\StreamGames42\App;
+
+require __DIR__.'/vendor/autoload.php';
+
+new App('Stream Games 42', null, 'update:fonts');
