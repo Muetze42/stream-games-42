@@ -12,7 +12,9 @@ module.exports = {
     "electron": "readonly",
     "api": "readonly",
     "formatChatMessage": "readonly",
-    "TwitchMessageParser": "readonly"
+    "TwitchMessageParser": "readonly",
+    "arrayFilter": "readonly",
+    "arrayUnique": "readonly"
   },
   rules: {
     'vue/require-default-prop': 'off',

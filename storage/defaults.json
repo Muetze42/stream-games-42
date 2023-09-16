@@ -1,0 +1,113 @@
+{
+  "mainWindow": {
+    "alwaysOnTop": false,
+    "width": 1280,
+    "height": 768,
+    "updater": {
+      "checkOnStartup": true,
+      "channel": "stable",
+      "backgroundDownload": true
+    },
+    "files": []
+  },
+  "players": {
+    "active": 2,
+    "1": {
+      "name": "Player 1",
+      "points": 0
+    },
+    "2": {
+      "name": "Player 2",
+      "points": 0
+    },
+    "3": {
+      "name": "Player 3",
+      "points": 0
+    },
+    "4": {
+      "name": "Player 4",
+      "points": 0
+    },
+    "5": {
+      "name": "Player 5",
+      "points": 0
+    },
+    "6": {
+      "name": "Player 6",
+      "points": 0
+    }
+  },
+  "playerWindow": {
+    "width": 200,
+    "height": 50,
+    "backgroundColor": true,
+    "alwaysOnTop": true,
+    "skipTaskbar": true,
+    "customCSS": "",
+    "style": {
+      "backgroundColor": "#ffffff",
+      "borderColor": "#737373"
+    },
+    "classes": {
+      "border": "border-2",
+      "direction": "flex-row",
+      "pLeft": "pl-1",
+      "pBottom": "pb-0",
+      "pRight": "pr-1",
+      "pTop": "pt-0",
+      "rounded": "rounded-md",
+      "gap": "gap-4"
+    },
+    "name": {
+      "classes": {
+        "border": "border-0",
+        "fontFamily": "font-sans",
+        "fontWeight": "font-medium",
+        "height": null,
+        "justify": "justify-start",
+        "pBottom": "pb-0",
+        "pLeft": "pl-0",
+        "pRight": "pr-0",
+        "pTop": "pt-0",
+        "rounded": "rounded-none",
+        "minWidth": "min-w-0"
+      },
+      "backgroundColor": true,
+      "borderColor": true,
+      "style": {
+        "backgroundColor": "#fca5a5",
+        "borderColor": "#000000",
+        "color": "#000000",
+        "fontSize": 18
+      }
+    },
+    "points": {
+      "classes": {
+        "border": "border-0",
+        "fontFamily": "font-sans",
+        "fontWeight": "font-medium",
+        "height": "h-10",
+        "justify": "justify-center",
+        "pBottom": "pb-0",
+        "pLeft": "pl-0",
+        "pRight": "pr-0",
+        "pTop": "pt-0",
+        "rounded": "rounded-md",
+        "minWidth": "min-w-10"
+      },
+      "backgroundColor": true,
+      "borderColor": true,
+      "style": {
+        "backgroundColor": "#e11d48",
+        "borderColor": "#000000",
+        "color": "#fafafa",
+        "fontSize": 18
+      }
+    }
+  },
+  "chatCollector": {
+    "seconds": 30,
+    "words": 0,
+    "chats": []
+  }
+}

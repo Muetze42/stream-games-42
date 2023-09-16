@@ -34,6 +34,7 @@
   "Visit :target": "Besuche :target",
   "What says the chat?": "Was sagt der Chat?",
   "Width": "Breite",
+  "Next": "Weiter",
   "bottom": "unten",
   "height": "Höhe",
   "left": "links",
@@ -56,5 +57,14 @@
   "For 1 player": "Für 1 Spieler",
   "For :players players": "Für :players Spieler",
   "With chat interactions": "Mit Chat Interaktionen",
-  "ID": "ID"
+  "ID": "ID",
+  "Error": "Fehler",
+  "Back": "Zurück",
+  "Start": "Start",
+  "Capture messages in the following chats": "In folgenden Chats die Nachrichten erfassen",
+  "Seconds Capture answers": "Sekunden Antworten erfassen",
+  "Capture all words after :sign": "Alle Wörter nach dem :sign erfassen",
+  "Capture only the first word after the :sign": "Nur das erste Wort nach dem :sign erfassen",
+  "Capture only the first :count words after the :sign": "Nur die ersten :count Wörter nach dem :sign erfassen",
+  "In the next step, all chat messages that start with :sign will be captured.": "Beim nächsten Schritt werden alle Chat-Nachrichten die mit :sign anfangen erfasst."
 }
