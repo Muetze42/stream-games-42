@@ -62,7 +62,7 @@
   "Back": "Zurück",
   "Start": "Start",
   "Capture messages in the following chats": "In folgenden Chats die Nachrichten erfassen",
-  "Seconds Capture answers": "Sekunden Antworten erfassen",
+  "Time in seconds to capture answers": "Zeit in Sekunden um Antworten zu erfassen",
   "Capture all words after :sign": "Alle Wörter nach dem :sign erfassen",
   "Capture only the first word after the :sign": "Nur das erste Wort nach dem :sign erfassen",
   "Capture only the first :count words after the :sign": "Nur die ersten :count Wörter nach dem :sign erfassen",

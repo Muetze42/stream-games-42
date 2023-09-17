@@ -14,7 +14,7 @@ module.exports = {
     "formatChatMessage": "readonly",
     "TwitchMessageParser": "readonly",
     "arrayFilter": "readonly",
-    "arrayUnique": "readonly"
+    "bestEntries": "readonly"
   },
   rules: {
     'vue/require-default-prop': 'off',
