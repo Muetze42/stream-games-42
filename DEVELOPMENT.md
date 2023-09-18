@@ -54,3 +54,13 @@ Copy font files to `/src/renderer/public/fonts/<font name>/*.woff` and run
 ```bash
 php streamgames update:fonts
 ```
+
+### Commands
+
+#### Create Faked Chat Responses
+
+The default locale is `de_DE`.
+
+```bash
+php streamgames faker:chat-responses
+```
