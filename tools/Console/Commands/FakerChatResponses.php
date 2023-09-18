@@ -84,7 +84,7 @@ class FakerChatResponses extends Command
 
         file_put_contents(
             __DIR__ . '/../../data/chat-responses.json',
-            json_encode($this->data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES)
+            json_encode($this->data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES)
         );
     }
 
@@ -112,10 +112,11 @@ class FakerChatResponses extends Command
     protected function addWord(string $user, string $word): void
     {
         $word = Str::upper($word);
-        $count = data_get($this->data, 'wordsAll.' . $word, 0);
-        $this->data['wordsAll'][$word] = $count + 1;
-        $this->data['userWords'][$user][] = $word;
-        $this->data['userWords'][$user] = array_unique($this->data['userWords'][$user]);
+        if (!in_array($word, data_get($this->data, 'userWords' . $user, []))) {
+            $count = data_get($this->data, 'wordsAll.' . $word, 0);
+            $this->data['wordsAll'][$word] = $count + 1;
+            $this->data['userWords'][$user][] = $word;
+        }
     }
 
     /**
