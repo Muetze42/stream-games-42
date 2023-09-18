@@ -112,7 +112,7 @@ class FakerChatResponses extends Command
     protected function addWord(string $user, string $word): void
     {
         $word = Str::upper($word);
-        if (!in_array($word, data_get($this->data, 'userWords' . $user, []))) {
+        if (!in_array($word, data_get($this->data, 'userWords.' . $user, []))) {
             $count = data_get($this->data, 'wordsAll.' . $word, 0);
             $this->data['wordsAll'][$word] = $count + 1;
             $this->data['userWords'][$user][] = $word;
