@@ -1,5 +1,6 @@
 {
   "mainWindow": {
+    "maxPlayers": 6,
     "alwaysOnTop": false,
     "width": 1280,
     "height": 768,
