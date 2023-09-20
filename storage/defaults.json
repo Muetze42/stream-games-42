@@ -86,5 +86,14 @@
     "seconds": 30,
     "words": 0,
     "chats": []
+  },
+  "question": {
+    "layout": "Column",
+    "question": "Stream Games 42 Question Window"
+  },
+  "questionWindow": {
+    "width": 500,
+    "height": 250,
+    "alwaysOnTop": true
   }
 }
