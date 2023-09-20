@@ -9,14 +9,19 @@ module.exports = {
     '@vue/eslint-config-prettier'
   ],
   globals: {
-    "electron": "readonly",
+    "TwitchMessageParser": true,
     "api": "readonly",
-    "formatChatMessage": "readonly",
-    "TwitchMessageParser": "readonly",
-    "arrayFilter": "readonly",
-    "bestEntries": "readonly",
-    "paginate": "readonly",
-    "setStore": "readonly"
+    "arrayFilter": true,
+    "bestEntries": true,
+    "electron": "readonly",
+    "formatChatMessage": true,
+    "paginate": true,
+    "setPlayers": true,
+    "setStore": true
+  },
+  env: {
+    browser: true,
+    node: true
   },
   rules: {
     'vue/require-default-prop': 'off',
