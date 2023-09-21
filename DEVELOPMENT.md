@@ -9,10 +9,6 @@ You need access to the https://github.com/Muetze42/stream-games-42-src repositor
 
 ## Development
 
-## Recommended IDE Setup
-
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-
 ### Project Setup
 
 ## Install
