@@ -87,15 +87,13 @@
     "words": 0,
     "chats": []
   },
-  "question": {
-    "layout": "Column",
-    "question": "Stream Games 42 Question Window"
-  },
   "questionWindow": {
+    "question": "Stream Games 42 Question Window",
     "width": 500,
     "height": 250,
     "alwaysOnTop": true,
     "skipTaskbar": true,
+    "customCSS": "",
     "style": {
       "backgroundColor": "#ffffff",
       "borderColor": "#737373"
@@ -108,7 +106,7 @@
       "pRight": "pr-1",
       "pTop": "pt-0",
       "rounded": "rounded-md",
-      "gap": "gap-4"
+      "justify": "justify-start"
     },
     "sentence": {
       "classes": {
@@ -116,7 +114,6 @@
         "fontFamily": "font-sans",
         "fontWeight": "font-medium",
         "height": null,
-        "justify": "justify-start",
         "pBottom": "pb-0",
         "pLeft": "pl-0",
         "pRight": "pr-0",
