@@ -98,24 +98,26 @@
     "alwaysOnTop": true,
     "skipTaskbar": true,
     "customCSS": "",
+    "backgroundColor": true,
     "style": {
       "backgroundColor": "#ffffff",
       "borderColor": "#737373"
     },
     "classes": {
       "border": "border-2",
+      "borderStyle": "border-solid",
       "direction": "flex-row",
-      "pLeft": "pl-1",
+      "pLeft": "pl-0",
       "pBottom": "pb-0",
-      "pRight": "pr-1",
+      "pRight": "pr-0",
       "pTop": "pt-0",
       "rounded": "rounded-md",
-      "justify": "justify-center",
-      "alignItems": "items-center"
+      "alignment": "justify-center items-center"
     },
     "sentence": {
       "classes": {
         "border": "border-0",
+        "borderStyle": "border-solid",
         "fontFamily": "font-sans",
         "fontWeight": "font-medium",
         "height": null,
@@ -127,7 +129,6 @@
         "minWidth": "min-w-0"
       },
       "backgroundColor": true,
-      "borderColor": true,
       "style": {
         "backgroundColor": "#fca5a5",
         "borderColor": "#000000",

@@ -94,5 +94,17 @@
   "dashed": "gestrichelt",
   "dotted": "gepunktet",
   "double": "doppelt",
-  "hidden": "versteckt"
+  "hidden": "versteckt",
+  "Twitch username": "Twitch Benutzername",
+  "Sentence": "Satz",
+  "Alignment": "Ausrichtung",
+  "Centered": "Zentriert",
+  "Center left": "Zentriert links",
+  "Center right": "Zentriert rechts",
+  "Top left": "Oben links",
+  "Top right": "Oben rechts",
+  "Top centered": "Oben zentriert",
+  "Bottom left": "Unten links",
+  "Bottom right": "Unten rechts",
+  "Bottom centered": "Unten zentriert"
 }
