@@ -68,7 +68,15 @@ class Logger {
     let date = dateTime.slice(0, 10)
 
     if (typeof message !== 'string') {
-      message = JSON.stringify(message)
+      if (typeof message.toString === 'function') {
+        message = message.toString()
+      } else {
+        try {
+          message = JSON.stringify(message)
+        } catch (e) {
+          // Silent
+        }
+      }
     }
 
     let data = ''
