@@ -1,5 +1,6 @@
 {
   "mainWindow": {
+    "logLevel": "error",
     "maxPlayers": 6,
     "alwaysOnTop": false,
     "width": 1280,
@@ -27,6 +28,7 @@
     },
     "classes": {
       "border": "border-2",
+      "borderStyle": "border-solid",
       "direction": "flex-row",
       "pLeft": "pl-1",
       "pBottom": "pb-0",
@@ -38,6 +40,7 @@
     "name": {
       "classes": {
         "border": "border-0",
+        "borderStyle": "border-solid",
         "fontFamily": "font-sans",
         "fontWeight": "font-medium",
         "height": null,
@@ -61,6 +64,7 @@
     "points": {
       "classes": {
         "border": "border-0",
+        "borderStyle": "border-solid",
         "fontFamily": "font-sans",
         "fontWeight": "font-medium",
         "height": "h-10",
@@ -106,7 +110,8 @@
       "pRight": "pr-1",
       "pTop": "pt-0",
       "rounded": "rounded-md",
-      "justify": "justify-start"
+      "justify": "justify-center",
+      "alignItems": "items-center"
     },
     "sentence": {
       "classes": {

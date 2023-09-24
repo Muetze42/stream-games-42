@@ -1,4 +1,4 @@
-appId: com.electron.app
+appId: com.stream-games-42.app
 productName: Stream Games 42
 directories:
   buildResources: build
@@ -29,10 +29,14 @@ nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
   uninstallDisplayName: ${productName}
-  createDesktopShortcut: always
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
   packElevateHelper: true
   multiLanguageInstaller: true
   installerIcon: build/icon.ico
+#  installerLanguages:
+#    - en_US
+#    - de_DE
 mac:
   entitlementsInherit: build/entitlements.mac.plist
   extendInfo:
