@@ -116,6 +116,7 @@
     },
     "sentence": {
       "classes": {
+        "textAlign": "text-center",
         "border": "border-0",
         "borderStyle": "border-solid",
         "fontFamily": "font-sans",

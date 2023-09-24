@@ -52,6 +52,7 @@
   "Resume word": "Wort wieder aufnehmen",
   "Previous entries": "Vorherige Einträge",
   "bottom": "unten",
+  "Task": "Aufgabe",
   "height": "Höhe",
   "left": "links",
   "none": "keine",
@@ -106,5 +107,8 @@
   "Top centered": "Oben zentriert",
   "Bottom left": "Unten links",
   "Bottom right": "Unten rechts",
-  "Bottom centered": "Unten zentriert"
+  "Bottom centered": "Unten zentriert",
+  "justify": "justify",
+  "Text align": "Textausrichtung",
+  "center": "zentriert"
 }
