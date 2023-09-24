@@ -9,6 +9,7 @@ module.exports = {
     '@vue/eslint-config-prettier'
   ],
   globals: {
+    "Log": true,
     "TwitchMessageParser": true,
     "api": "readonly",
     "arrayFilter": true,
