@@ -7,7 +7,7 @@
     "height": 768,
     "updater": {
       "checkOnStartup": true,
-      "channel": "stable",
+      "channel": null,
       "backgroundDownload": true
     },
     "files": []
@@ -136,6 +136,19 @@
         "color": "#000000",
         "fontSize": 18
       }
+    }
+  },
+  "gameWindow": {
+    "layout": "column",
+    "width": 500,
+    "height": 500,
+    "alwaysOnTop": true,
+    "skipTaskbar": true,
+    "customCSS": "",
+    "backgroundColor": true,
+    "style": {
+      "backgroundColor": "#ffffff",
+      "borderColor": "#737373"
     }
   }
 }
