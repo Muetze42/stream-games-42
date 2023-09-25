@@ -1,7 +1,7 @@
 {
   "name": "stream-games-42",
   "description": "Stream Games Collection.",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.1",
   "author": "Norman Huth",
   "homepage": "https://huth.it",
   "bugs": {
@@ -61,6 +61,7 @@
     "@vue/eslint-config-prettier": "^8.0.0",
     "autoprefixer": "^10.4.16",
     "cssnano": "^6.0.1",
+    "dotenv": "^16.3.1",
     "electron": "^26.2.2",
     "electron-builder": "^24.6.4",
     "electron-vite": "^1.0.28",

@@ -1,8 +1,5 @@
 # Stream Games 42
 
-An [Electron application](https://www.electronjs.org/) with [Vue](https://vuejs.org/)
-and [Tailwind CSS](https://tailwindcss.com/)
-
 ## Notice
 
 You need access to the https://github.com/Muetze42/stream-games-42-src repository.
@@ -10,6 +7,8 @@ You need access to the https://github.com/Muetze42/stream-games-42-src repositor
 ## Development
 
 ### Project Setup
+
+Copy `env.example.json` to `env.json` and set data in `env.json`.
 
 ## Install
 
@@ -45,7 +44,7 @@ pnpm build:linux
 
 ### Update Fonts
 
-Copy font files to `/src/renderer/public/fonts/<font name>/*.woff` and run
+Copy font files to `/src/renderer/public/fonts/<font name>/*.woff(2)` and run
 
 ```bash
 php streamgames update:fonts

@@ -1,6 +1,9 @@
 # Stream Games 42
 
-An [Electron application](https://www.electronjs.org/) with [Vue](https://vuejs.org/) and [Tailwind CSS](https://tailwindcss.com/)
+* Website: [http://42gam.es](http://42gam.es/)
+* Support Project: [https://huth.it/coffee](https://huth.it/coffee)
+* An [Electron application](https://www.electronjs.org/) with [Vue](https://vuejs.org/)
+  and [Tailwind CSS](https://tailwindcss.com/)
 
 ## Developments
 

@@ -2,6 +2,8 @@ appId: com.stream-games-42.app
 productName: Stream Games 42
 directories:
   buildResources: build
+afterSign: afterSign.js
+afterAllArtifactBuild: afterAllArtifactBuild.js
 files:
   - '!**/.vscode/*'
   - '!**/.github/*'

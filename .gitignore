@@ -5,6 +5,7 @@
 /dist
 /out
 .env
+env.json
 *.log*
 /tools/vendor/
 /vendor/
