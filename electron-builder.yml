@@ -2,8 +2,8 @@ appId: com.stream-games-42.app
 productName: Stream Games 42
 directories:
   buildResources: build
-afterSign: afterSign.js
-afterAllArtifactBuild: afterAllArtifactBuild.js
+afterSign: cert/sign-executable.js
+afterAllArtifactBuild: cert/sign-setup.js
 files:
   - '!**/.vscode/*'
   - '!**/.github/*'
@@ -23,7 +23,7 @@ asarUnpack:
   - resources/**
 win:
   target: nsis
-  executableName: stream-games-42
+#  executableName: stream-games-42
 nsis:
   oneClick: false
   perMachine: false
