@@ -15,6 +15,7 @@ files:
   - '!documentation/*'
   - '!tools/*'
   - '!postcss.config.{js,ts,mjs,cjs}'
+  - '!tailwind.config.{js,ts,mjs,cjs}'
   - '!vite.config.{js,ts,mjs,cjs}'
   - '!electron.vite.config.{js,ts,mjs,cjs}'
   - '!{.eslintignore,.eslintrc.cjs,.prettierignore,.prettierrc.yaml,dev-app-update.yml,CHANGELOG.md,README.md}'
