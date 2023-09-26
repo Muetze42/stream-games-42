@@ -3,8 +3,8 @@
     "logLevel": "error",
     "maxPlayers": 6,
     "alwaysOnTop": false,
-    "width": 1280,
-    "height": 768,
+    "width": 1000,
+    "height": 900,
     "updater": {
       "checkOnStartup": true,
       "channel": null,
@@ -92,7 +92,7 @@
     "chats": []
   },
   "questionWindow": {
-    "question": "Stream Games 42 Question Window",
+    "question": "Who is the developer of Stream Games 42?\n(Hint: Norman Huth)",
     "width": 500,
     "height": 250,
     "alwaysOnTop": true,
@@ -107,11 +107,12 @@
       "border": "border-2",
       "borderStyle": "border-solid",
       "direction": "flex-row",
-      "pLeft": "pl-0",
+      "pLeft": "pl-1",
       "pBottom": "pb-0",
-      "pRight": "pr-0",
+      "pRight": "pr-1",
       "pTop": "pt-0",
       "rounded": "rounded-md",
+      "gap": "gap-4",
       "alignment": "justify-center items-center"
     },
     "sentence": {
@@ -139,16 +140,106 @@
     }
   },
   "gameWindow": {
-    "layout": "column",
+    "layout": "Column",
     "width": 500,
     "height": 500,
     "alwaysOnTop": true,
-    "skipTaskbar": true,
+    "skipTaskbar": false,
     "customCSS": "",
     "backgroundColor": true,
     "style": {
       "backgroundColor": "#ffffff",
       "borderColor": "#737373"
-    }
+    },
+    "classes": {
+      "border": "border-2",
+      "borderStyle": "border-solid",
+      "pLeft": "pl-1",
+      "pBottom": "pb-0",
+      "pRight": "pr-1",
+      "pTop": "pt-0",
+      "rounded": "rounded-md",
+      "gap": "gap-4 ",
+      "alignment": "justify-center items-center"
+    },
+    "item": {
+      "classes": {
+        "border": "border-2",
+        "borderStyle": "border-solid",
+        "height": null,
+        "pBottom": "pb-0",
+        "pLeft": "pl-0",
+        "pRight": "pr-0",
+        "pTop": "pt-0",
+        "rounded": "rounded-none",
+        "minWidth": "min-w-0",
+        "alignment": "justify-between items-center"
+      },
+      "backgroundColor": true,
+      "borderColor": true,
+      "style": {
+        "backgroundColor": "#fca5a5",
+        "borderColor": "#000000",
+        "color": "#000000",
+        "fontSize": 18
+      },
+      "key": {
+        "classes": {
+          "border": "border-0",
+          "borderStyle": "border-solid",
+          "fontFamily": "font-sans",
+          "fontWeight": "font-medium",
+          "height": null,
+          "pBottom": "pb-0",
+          "pLeft": "pl-0",
+          "pRight": "pr-0",
+          "pTop": "pt-0",
+          "rounded": "rounded-none",
+          "minWidth": "min-w-0"
+        },
+        "backgroundColor": false,
+        "borderColor": false,
+        "style": {
+          "backgroundColor": "#fca5a5",
+          "borderColor": "#000000",
+          "color": "#000000",
+          "fontSize": 18
+        }
+      },
+      "value": {
+        "classes": {
+          "border": "border-0",
+          "borderStyle": "border-solid",
+          "fontFamily": "font-sans",
+          "fontWeight": "font-medium",
+          "pBottom": "pb-0",
+          "pLeft": "pl-0",
+          "pRight": "pr-0",
+          "pTop": "pt-0",
+          "rounded": "rounded-md",
+          "minWidth": "min-w-10"
+        },
+        "backgroundColor": false,
+        "borderColor": false,
+        "style": {
+          "backgroundColor": "#e11d48",
+          "borderColor": "#000000",
+          "color": "#fafafa",
+          "fontSize": 18
+        }
+      }
+    },
+    "items": [
+      {
+        "key": "Jane Doe",
+        "value": 200
+      },
+      {
+        "key": "John Doe",
+        "value": 100
+      },
+      {},
+      {}
+    ]
   }
 }

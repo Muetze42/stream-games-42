@@ -17,8 +17,10 @@ module.exports = {
     "electron": "readonly",
     "formatChatMessage": true,
     "paginate": true,
+    "setGameWindow": true,
     "setPlayers": true,
-    "setStore": true
+    "setStore": true,
+    "setQuestionWindow": true
   },
   env: {
     browser: true,
