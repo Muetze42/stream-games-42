@@ -102,6 +102,7 @@
     "skipTaskbar": true,
     "customCSS": "",
     "backgroundColor": true,
+    "opacity": 1,
     "style": {
       "backgroundColor": "#ffffff",
       "borderColor": "#737373"
@@ -119,6 +120,7 @@
       "alignment": "justify-center items-center"
     },
     "sentence": {
+      "opacity": 1,
       "classes": {
         "textAlign": "text-center",
         "border": "border-0",
