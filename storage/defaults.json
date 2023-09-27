@@ -145,6 +145,7 @@
     }
   },
   "gameWindow": {
+    "opacity": 1,
     "layout": "Column",
     "width": 500,
     "height": 500,
@@ -170,6 +171,7 @@
       "itemWidth": true
     },
     "item": {
+      "opacity": 0.8,
       "classes": {
         "border": "border-2",
         "borderStyle": "border-solid",
@@ -191,6 +193,7 @@
         "fontSize": 18
       },
       "key": {
+        "opacity": 1,
         "classes": {
           "border": "border-0",
           "borderStyle": "border-solid",
