@@ -18,6 +18,7 @@ module.exports = {
     "formatChatMessage": true,
     "hexToRgbA": true,
     "paginate": true,
+    "setGameData": true,
     "setGameWindow": true,
     "setPlayers": true,
     "setQuestionWindow": true,

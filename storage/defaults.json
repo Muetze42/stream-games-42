@@ -146,7 +146,6 @@
   },
   "gameWindow": {
     "opacity": 1,
-    "layout": "Column",
     "width": 500,
     "height": 500,
     "alwaysOnTop": true,
@@ -238,7 +237,10 @@
           "fontSize": 18
         }
       }
-    },
+    }
+  },
+  "gameData": {
+    "layout": "column",
     "items": [
       {
         "key": "Jane Doe",
