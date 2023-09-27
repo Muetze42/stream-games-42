@@ -1,6 +1,6 @@
 {
   ":position of the name": ":position neben dem Namen",
-  "Adjust :window window": ":window Fenster anpassen",
+  "Adjust :window": ":window anpassen",
   "Always on top": "Immer im Vordergrund",
   "Ask your chat a question and let your guests find the best answer.": "Stell Deinem Chat eine Frage und lass Deinen Gästen die beste Antwort finden.",
   "Background color": "Hintergrundfarbe",
@@ -22,10 +22,13 @@
   "Minimum width": "Mindestbreite",
   "Name": "Name",
   "OK": "OK",
+  "Yes": "Ja",
+  "Elements in full width": "Elemente in voller Breite",
   "Open window": "Fenster öffnen",
   "Open :window": ":window öffnen",
   "Question window": "Frage-Fenster",
   "Game window": "Spiel-Fenster",
+  "Player window": "Spieler-Fenster",
   "Padding": "Innenabstand",
   "Links": "Links",
   "Website": "Website",
@@ -101,8 +104,8 @@
   "Sentence": "Satz",
   "Alignment": "Ausrichtung",
   "Centered": "Zentriert",
-  "Center left": "Zentriert links",
-  "Center right": "Zentriert rechts",
+  "Middle left": "Mitte links",
+  "Middle right": "Mitte rechts",
   "Top left": "Oben links",
   "Top right": "Oben rechts",
   "Top centered": "Oben zentriert",
@@ -111,5 +114,6 @@
   "Bottom centered": "Unten zentriert",
   "justify": "justify",
   "Text align": "Textausrichtung",
-  "center": "zentriert"
+  "center": "zentriert",
+  "Opacity": "Deckkraft"
 }

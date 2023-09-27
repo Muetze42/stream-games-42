@@ -16,11 +16,12 @@ module.exports = {
     "bestEntries": true,
     "electron": "readonly",
     "formatChatMessage": true,
+    "hexToRgbA": true,
     "paginate": true,
     "setGameWindow": true,
     "setPlayers": true,
-    "setStore": true,
-    "setQuestionWindow": true
+    "setQuestionWindow": true,
+    "setStore": true
   },
   env: {
     browser: true,
