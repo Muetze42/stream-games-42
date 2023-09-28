@@ -123,5 +123,6 @@
   "Assign custom points": "Benutzerdefinierte Punkte vergeben",
   "Resolve": "Auflösen",
   "Do not distribute points": "Keine Punkte verteilen",
-  "Give :points points to :name": ":points Punkte an :name geben"
+  "Give :points points to :name": ":points Punkte an :name geben",
+  "Font color": "Schriftfarbe"
 }
