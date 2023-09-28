@@ -120,5 +120,8 @@
   "Start round": "Runde starten",
   "Evaluate the number of votes": "Den Anzahl der Stimmen werten",
   "The percentage share of votes is evaluated by": "Den prozentualen Anteil der Stimmen werten",
-  "Assign custom points": "Benutzerdefinierte Punkte vergeben"
+  "Assign custom points": "Benutzerdefinierte Punkte vergeben",
+  "Resolve": "Auflösen",
+  "Do not distribute points": "Keine Punkte verteilen",
+  "Give :points points to :name": ":points Punkte an :name geben"
 }
