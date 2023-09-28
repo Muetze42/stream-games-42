@@ -16,13 +16,13 @@
     "active": 2
   },
   "playerWindow": {
-    "width": 200,
+    "width": 290,
     "height": 50,
     "backgroundColor": true,
     "alwaysOnTop": true,
     "skipTaskbar": true,
     "customCSS": "",
-    "opacity": 0.8,
+    "opacity": 0.5,
     "style": {
       "backgroundColor": "#ffffff",
       "borderColor": "#737373"
@@ -40,7 +40,7 @@
     },
     "name": {
       "opacity": 1,
-      "backgroundColor": true,
+      "backgroundColor": false,
       "borderColor": true,
       "classes": {
         "border": "border-0",
@@ -60,7 +60,7 @@
         "backgroundColor": "#fca5a5",
         "borderColor": "#000000",
         "color": "#000000",
-        "fontSize": 18
+        "fontSize": 25
       }
     },
     "points": {
@@ -75,8 +75,8 @@
         "height": "h-10",
         "justify": "justify-center",
         "pBottom": "pb-0",
-        "pLeft": "pl-0",
-        "pRight": "pr-0",
+        "pLeft": "pl-1",
+        "pRight": "pr-1",
         "pTop": "pt-0",
         "rounded": "rounded-md",
         "minWidth": "min-w-10"
@@ -85,7 +85,7 @@
         "backgroundColor": "#e11d48",
         "borderColor": "#000000",
         "color": "#fafafa",
-        "fontSize": 18
+        "fontSize": 22
       }
     }
   },
@@ -97,18 +97,18 @@
   "questionWindow": {
     "question": "Who is the developer of Stream Games 42?\n(Hint: Norman Huth)",
     "width": 500,
-    "height": 250,
+    "height": 190,
     "alwaysOnTop": true,
     "skipTaskbar": true,
     "customCSS": "",
     "backgroundColor": true,
-    "opacity": 1,
+    "opacity": 0.8,
     "style": {
       "backgroundColor": "#ffffff",
       "borderColor": "#737373"
     },
     "classes": {
-      "border": "border-2",
+      "border": "border-0",
       "borderStyle": "border-solid",
       "direction": "flex-row",
       "pLeft": "pl-1",
@@ -128,24 +128,24 @@
         "fontFamily": "font-sans",
         "fontWeight": "font-medium",
         "height": null,
-        "pBottom": "pb-0",
-        "pLeft": "pl-0",
-        "pRight": "pr-0",
-        "pTop": "pt-0",
-        "rounded": "rounded-none",
+        "pBottom": "pb-2",
+        "pLeft": "pl-2",
+        "pRight": "pr-2",
+        "pTop": "pt-2",
+        "rounded": "rounded",
         "minWidth": "min-w-0"
       },
       "backgroundColor": true,
       "style": {
-        "backgroundColor": "#fca5a5",
+        "backgroundColor": "#b42222",
         "borderColor": "#000000",
-        "color": "#000000",
+        "color": "#ffffff",
         "fontSize": 18
       }
     }
   },
   "gameWindow": {
-    "opacity": 1,
+    "opacity": 0.8,
     "width": 500,
     "height": 500,
     "alwaysOnTop": true,
@@ -157,12 +157,12 @@
       "borderColor": "#737373"
     },
     "classes": {
-      "border": "border-2",
+      "border": "border",
       "borderStyle": "border-solid",
-      "pLeft": "pl-1",
-      "pBottom": "pb-0",
-      "pRight": "pr-1",
-      "pTop": "pt-0",
+      "pLeft": "pl-5",
+      "pBottom": "pb-5",
+      "pRight": "pr-5",
+      "pTop": "pt-5",
       "rounded": "rounded-md",
       "gapX": "gap-x-4",
       "gapY": "gap-y-4",
@@ -173,20 +173,20 @@
       "opacity": 0.8,
       "classes": {
         "border": "border-2",
-        "borderStyle": "border-solid",
+        "borderStyle": "border-dashed",
         "height": null,
         "pBottom": "pb-0",
-        "pLeft": "pl-0",
-        "pRight": "pr-0",
+        "pLeft": "pl-1",
+        "pRight": "pr-1",
         "pTop": "pt-0",
-        "rounded": "rounded-none",
+        "rounded": "rounded",
         "minWidth": "min-w-0",
         "alignment": "justify-between items-center"
       },
       "backgroundColor": true,
       "borderColor": true,
       "style": {
-        "backgroundColor": "#fca5a5",
+        "backgroundColor": "#104f7e",
         "borderColor": "#000000",
         "color": "#000000",
         "fontSize": 18
@@ -211,8 +211,8 @@
         "style": {
           "backgroundColor": "#fca5a5",
           "borderColor": "#000000",
-          "color": "#000000",
-          "fontSize": 18
+          "color": "#ffffff",
+          "fontSize": 24
         }
       },
       "value": {
@@ -234,7 +234,7 @@
           "backgroundColor": "#e11d48",
           "borderColor": "#000000",
           "color": "#fafafa",
-          "fontSize": 18
+          "fontSize": 24
         }
       }
     }
