@@ -40,6 +40,8 @@
     "@electron-toolkit/utils": "^2.0.1",
     "@electron/remote": "^2.0.11",
     "@norman-huth/helpers-collection-js": "^0.0.11",
+    "@sentry/electron": "^4.11.0",
+    "@sentry/vue": "^7.72.0",
     "electron-dl": "^3.5.0",
     "node-machine-id": "^1.1.12",
     "websocket": "^1.0.34"
