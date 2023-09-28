@@ -116,5 +116,9 @@
   "Text align": "Textausrichtung",
   "center": "zentriert",
   "Opacity": "Deckkraft",
-  "Distance between elements": "Abstand zwischen den Elementen"
+  "Distance between elements": "Abstand zwischen den Elementen",
+  "Start round": "Runde starten",
+  "Evaluate the number of votes": "Den Anzahl der Stimmen werten",
+  "The percentage share of votes is evaluated by": "Den prozentualen Anteil der Stimmen werten",
+  "Assign custom points": "Benutzerdefinierte Punkte vergeben"
 }
