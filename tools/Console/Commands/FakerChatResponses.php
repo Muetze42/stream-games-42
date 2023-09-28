@@ -28,21 +28,21 @@ class FakerChatResponses extends Command
      *
      * @var int
      */
-    protected int $userCount = 500;
+    protected int $userCount = 2;
 
     /**
      * The number of states to add for each user.
      *
      * @var int
      */
-    protected int $stateCount = 3;
+    protected int $stateCount = 1;
 
     /**
      * The number of cities to add for each user.
      *
      * @var int
      */
-    protected int $cityCount = 7;
+    protected int $cityCount = 1;
 
     /**
      * The Faker instance.
